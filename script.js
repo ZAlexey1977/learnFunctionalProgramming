@@ -123,6 +123,34 @@ let log = console.log;
 
 /////////////////////////////////// unit 6 ///////////////////////////////////
 
+// Глобальна змінна
+const bookList = ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"];
+
+// Змініть код під цим рядком
+function add(bookName) {
+  let arr = bookList;
+  log(bookList)
+  log(arr)
+  arr.push(bookName);
+  return arr;
+
+  // Змініть код над цим рядком
+}
+
+// Змініть код під цим рядком
+function remove(bookName) {
+  const book_index = bookList.indexOf(bookName);
+  if (book_index >= 0) {
+    let arr2 = bookList;
+    arr2.splice(book_index, 1);
+    return arr2;
+
+    // Змініть код над цим рядком
+  }
+}
+
+log(add("A Brief History of Time"));
+
 /////////////////////////////////// unit 7 ///////////////////////////////////
 
 /////////////////////////////////// unit 8 ///////////////////////////////////
