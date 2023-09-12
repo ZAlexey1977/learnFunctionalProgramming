@@ -77,8 +77,8 @@ Window.prototype.tabClose = function (index) {
 
   // Змініть код лише під цим рядком
 
-  const tabsBeforeIndex = this.tabs.splice(0, index); // Отримайте вкладки перед вкладкою
-  const tabsAfterIndex = this.tabs.splice(index + 1); // Отримайте вкладки після вкладки
+  const tabsBeforeIndex = this.tabs.slice(0, index); // Отримайте вкладки перед вкладкою
+  const tabsAfterIndex = this.tabs.slice(index + 1); // Отримайте вкладки після вкладки
 
   this.tabs = tabsBeforeIndex.concat(tabsAfterIndex); // З'єднайте їх разом
 
@@ -97,11 +97,10 @@ const finalTabs = socialWindow
   .tabOpen() // Відкрийте нову вкладку для мемів з котами
   .join(videoWindow.tabClose(2)) // Закрийте третю вкладку у вікні відео та приєднайтеся
   .join(workWindow.tabClose(1).tabOpen());
-log(finalTabs.tabs);
+console.log(finalTabs.tabs);
 
 /////////////////////////////////// unit 4 ///////////////////////////////////
-log(['Netflix', 'YouTube', 'Vimeo', 'Vine'].splice(0, 2).concat(['Netflix', 'YouTube', 'Vimeo', 'Vine'].splice(3)))
-log()
+
 /////////////////////////////////// unit 5 ///////////////////////////////////
 
 /////////////////////////////////// unit 6 ///////////////////////////////////
