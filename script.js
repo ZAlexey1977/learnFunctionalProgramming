@@ -127,30 +127,26 @@ let log = console.log;
 const bookList = ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"];
 
 // Змініть код під цим рядком
-function add(bookName) {
-  let arr = bookList;
-  log(bookList)
-  log(arr)
-  arr.push(bookName);
-  return arr;
+function add(arr, bookName) {
+  let ar = [...arr];
+  ar.push(bookName);
+  return ar;
 
   // Змініть код над цим рядком
 }
 
 // Змініть код під цим рядком
-function remove(bookName) {
+function remove(arr, bookName) {
   const book_index = bookList.indexOf(bookName);
+  let ar = [...arr];
   if (book_index >= 0) {
-    let arr2 = bookList;
-    arr2.splice(book_index, 1);
-    return arr2;
+
+    ar.splice(book_index, 1);
+    return ar;
 
     // Змініть код над цим рядком
   }
 }
-
-log(add("A Brief History of Time"));
-
 /////////////////////////////////// unit 7 ///////////////////////////////////
 
 /////////////////////////////////// unit 8 ///////////////////////////////////
