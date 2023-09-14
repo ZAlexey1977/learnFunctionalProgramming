@@ -435,7 +435,22 @@ let log = console.log;
 
 /////////////////////////////////// unit 11 ///////////////////////////////////
 
+// function sliceArray(anim, beginSlice, endSlice) {
+//   // Змініть код лише під цим рядком
+// return anim.slice(beginSlice, endSlice);
+
+//   // Змініть код лише над цим рядком
+// }
+
+// const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
+// sliceArray(inputAnim, 1, 3);
+
 /////////////////////////////////// unit 12 ///////////////////////////////////
+
+// function nonMutatingSplice(cities) {
+
+//   return cities.slice(0, 3);
+// }
 
 /////////////////////////////////// unit 13 ///////////////////////////////////
 
