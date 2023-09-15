@@ -623,6 +623,21 @@ let log = console.log;
 
 /////////////////////////////////// unit 16 ///////////////////////////////////
 
+// const squareList = ((arr) => {
+//   // Змініть код лише під цим рядком
+//   let test = arr.filter((el) => {
+//     if (Number.isInteger(el) && el > 0) {
+//       return el;
+//     }
+//   })
+//   let result = test.map((el) => Math.pow(el, 2))
+//   return result;
+//   // Змініть код лише над цим рядком
+// });
+
+// const squaredIntegers = squareList([4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2]);
+// log(squaredIntegers);
+
 /////////////////////////////////// unit 17 ///////////////////////////////////
 
 /////////////////////////////////// unit 18 ///////////////////////////////////
