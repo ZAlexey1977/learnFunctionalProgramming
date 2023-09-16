@@ -640,16 +640,32 @@ let log = console.log;
 
 /////////////////////////////////// unit 17 ///////////////////////////////////
 
-function alphabeticalOrder(arr) {
-  // Змініть код лише під цим рядком
+// function alphabeticalOrder(arr) {
+//   // Змініть код лише під цим рядком
 
-  return arr
-  // Змініть код лише над цим рядком
-}
+//   return arr.sort();
+//   // Змініть код лише над цим рядком
+// }
 
-alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
+// log(alphabeticalOrder(["a", "d", "c", "a", "z", "g"]));
 
 /////////////////////////////////// unit 18 ///////////////////////////////////
+
+// const globalArray = [1, 30, 4, 21, 100000];
+
+// function nonMutatingSort(arr) {
+//   // Змініть код лише під цим рядком
+
+//   let newArr = arr.slice();
+//   log(newArr);
+//   newArr.sort(function (a, b) { return a - b });
+//   return newArr;
+
+//   // Змініть код лише над цим рядком
+// }
+
+// log(nonMutatingSort(globalArray));
+// log(nonMutatingSort([5, 6, 3, 2, 9]));
 
 /////////////////////////////////// unit 19 ///////////////////////////////////
 
