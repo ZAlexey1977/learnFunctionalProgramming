@@ -680,17 +680,28 @@ let log = console.log;
 
 /////////////////////////////////// unit 20 ///////////////////////////////////
 
-function sentensify(str) {
-  // Змініть код лише під цим рядком
-  str = str.split(/\W/);
-  return str.join(' ');
+// function sentensify(str) {
+//   // Змініть код лише під цим рядком
+//   str = str.split(/\W/);
+//   return str.join(' ');
 
-  // Змініть код лише над цим рядком
-}
+//   // Змініть код лише над цим рядком
+// }
 
-log(sentensify("May-the-force-be-with-you"));
+// log(sentensify("May-the-force-be-with-you"));
 
 /////////////////////////////////// unit 21 ///////////////////////////////////
+
+// // Змініть код лише під цим рядком
+// function urlSlug(title) {
+//   title = title.toLowerCase();
+//   title = title.trim();
+//   title = title.split(/\s+/);
+//   return title.join('-');
+
+// }
+// // Змініть код лише над цим рядком
+// log(urlSlug(" Winter Is  Coming"));
 
 /////////////////////////////////// unit 22 ///////////////////////////////////
 
