@@ -405,15 +405,13 @@ let log = console.log;
 
 // // Змініть код лише під цим рядком
 
-// const filteredList = watchList.filter((el) => {
-//   let temp;
-//   if (Number(el.imdbRating) >= 8.0) {
-//     temp = watchList.map((el) => {
-//       return { 'title': el['Title'], 'rating': el.imdbRating }
-//     })
-//   }
-//   return temp;
-// });
+// const filteredList = watchList
+//   .filter((el) => {
+//     return el["imdbRating"] >= 8.0;
+//   })
+//   .map((el) => {
+//     return { "title": el["Title"], "rating": el["imdbRating"] }
+//   })
 
 // // Змініть код лише над цим рядком
 
@@ -669,14 +667,14 @@ let log = console.log;
 
 /////////////////////////////////// unit 19 ///////////////////////////////////
 
-// function splitify(str) {
-//   // Змініть код лише під цим рядком
-//   return str.split(/\W/);
+function splitify(str) {
+  // Змініть код лише під цим рядком
+  return str.split(/\W/);
 
-//   // Змініть код лише над цим рядком
-// }
+  // Змініть код лише над цим рядком
+}
 
-// log(splitify("Hello World,I-am code"));
+log(splitify("Hello World,I-am code"));
 
 /////////////////////////////////// unit 20 ///////////////////////////////////
 
@@ -731,19 +729,19 @@ let log = console.log;
 
 /////////////////////////////////// unit 24 ///////////////////////////////////
 
-function add(x) {
-  // Змініть код лише під цим рядком
+// function add(x) {
+//   // Змініть код лише під цим рядком
 
-  return function (y) {
-    return function (z) {
-      return x + y + z;
-    }
-  }
+//   return function (y) {
+//     return function (z) {
+//       return x + y + z;
+//     }
+//   }
 
-  // Змініть код лише над цим рядком
-}
+//   // Змініть код лише над цим рядком
+// }
 
-log(add(10)(20)(30));
+// log(add(10)(20)(30));
 
 /////////////////////////////////// unit 25 ///////////////////////////////////
 
