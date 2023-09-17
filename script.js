@@ -667,14 +667,14 @@ let log = console.log;
 
 /////////////////////////////////// unit 19 ///////////////////////////////////
 
-function splitify(str) {
-  // Змініть код лише під цим рядком
-  return str.split(/\W/);
+// function splitify(str) {
+//   // Змініть код лише під цим рядком
+//   return str.split(/\W/);
 
-  // Змініть код лише над цим рядком
-}
+//   // Змініть код лише над цим рядком
+// }
 
-log(splitify("Hello World,I-am code"));
+// log(splitify("Hello World,I-am code"));
 
 /////////////////////////////////// unit 20 ///////////////////////////////////
 
